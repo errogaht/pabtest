@@ -25,3 +25,7 @@
 в конце смотрим список всех тестов в консоли `php vendor\errogaht\pabtest\bin\pabtest list`
 
 и результаты для конкретного теста `php vendor\errogaht\pabtest\bin\pabtest result buttonTest`
+
+# to do
+
+- возможность запуска get variant не зависимо от того был ли создан тест именно сейчас
