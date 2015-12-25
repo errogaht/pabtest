@@ -28,5 +28,4 @@ if (!$loader) {
 $application = new Application();
 $application->add(new ListCommand());
 $application->add(new ResultCommand());
-$application->add(new InstallCommand());
 $application->run();
