@@ -4,8 +4,6 @@
   "description": "AB split tests server side",
   "keywords": [
     "ab test",
-    "a/b test",
-    "a\\b test",
     "split test",
     "a b test",
     "a b split test",
