@@ -9,7 +9,7 @@
 
 use errogaht\PABTest\PABTest;
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 PABTest::init();
 
