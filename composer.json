@@ -1,0 +1,40 @@
+{
+  "name": "errogaht/pabtest",
+  "type": "library",
+  "description": "AB split tests server side",
+  "keywords": [
+    "ab test",
+    "a/b test",
+    "a\\b test",
+    "split test",
+    "a b test",
+    "a b split test",
+    "ab split test"
+  ],
+  "homepage": "https://github.com/errogaht/pabtest",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Teterin",
+      "email": "7018407@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "doctrine/dbal": "2.5.2",
+    "symfony/console": "^3.0",
+    "symfony/yaml": "^3.0"
+  },
+  "require-dev": {
+    "raveren/kint": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "errogaht\\PABTest\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/pabtest"
+  ]
+}
